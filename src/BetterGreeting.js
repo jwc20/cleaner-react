@@ -1,11 +1,10 @@
-function BetterApp() {
+import Row from "react-bootstrap/Row";
+
+export default function BetterGreeting(props) {
   return (
-    <div className="BetterApp">
-      <header className="BetterApp-header">
-        <h1>This is Better App</h1>
-      </header>
-    </div>
+    <section>
+      <h1>This is a better greeting</h1>
+      <Row lable="Name">{props.name}</Row>
+    </section>
   );
 }
-
-export default BetterApp;
