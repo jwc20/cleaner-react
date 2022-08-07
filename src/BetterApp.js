@@ -1,5 +1,3 @@
-
-
 function BetterApp() {
   return (
     <div className="BetterApp">
